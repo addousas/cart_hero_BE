@@ -28,11 +28,24 @@ module.exports.security = {
   *                                                                          *
   ***************************************************************************/
 
-  // cors: {
-  //   allRoutes: false,
-  //   allowOrigins: '*',
-  //   allowCredentials: false,
-  // },
+  cors: {
+     allRoutes: true,
+     allowOrigins: '*',
+     allowCredentials: false,
+     allowRequestMethods: 'GET, POST, PUT, DELETE, OPTIONS, HEAD',
+
+  /***************************************************************************
+  *                                                                          *
+  * Which headers should be allowed for CORS requests? This is only used in  *
+  * response to preflight requests.                                          *
+  *                                                                          *
+  ***************************************************************************/
+
+  allowRequestHeaders: 'content-type, X-Requested-With, application/json'
+
+   },
+
+
 
 
   /****************************************************************************
@@ -44,6 +57,6 @@ module.exports.security = {
   *                                                                           *
   ****************************************************************************/
 
-  csrf: true
+  //csrf: true
 
 };
