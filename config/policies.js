@@ -19,5 +19,11 @@ module.exports.policies = {
   'deliver-contact-form-message': true,
   CarttrackerController: {
   	'*' : true
+  },
+  ClicksController: {
+  	'*' : true
+  },
+  CartcontentController: {
+  	'*' : true
   }
 };

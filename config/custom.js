@@ -51,15 +51,16 @@ module.exports.custom = {
   * (https://app.mailgun.com/app/domains)                                   *
   *                                                                         *
   **************************************************************************/
-  // mailgunDomain: 'sandboxaa1234fake678.mailgun.org',
-  // mailgunSecret: 'key-fakeb183848139913858e8abd9a3',
+  mailgunDomain: 'sandbox7bf0e90af4564046bd2e36d9bc282b8b.mailgun.org',
+  mailgunSecret: 'key-a72ef65792aaf70e4e7bdb8322de1c7a',
+
   //--------------------------------------------------------------------------
   // /\  Configure these to enable support for automated emails.
   // ||  (Important for password recovery, verification, contact form, etc.)
   //--------------------------------------------------------------------------
 
   // The sender that all outgoing emails will appear to come from.
-  fromEmailAddress: 'noreply@example.com',
+  fromEmailAddress: 'noreply@litlife.io',
   fromName: 'The NEW_APP_NAME Team',
 
   // Email address for receiving support messages & other correspondences.
