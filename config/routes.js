@@ -62,4 +62,14 @@ module.exports.routes = {
   '/terms':                   '/legal/terms',
   '/logout':                  '/api/v1/account/logout',
 
+  // debug views 
+
+  'GET /emails': {
+    view: 'emails/email-cart-recovery',
+    locals : {
+      layout : 'layouts/layout-email'
+    }
+  }
+
+
 };
