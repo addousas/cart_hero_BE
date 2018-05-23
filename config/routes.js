@@ -64,6 +64,19 @@ module.exports.routes = {
 
   // debug views 
 
+  'GET /dashboard': {
+    view: 'views/pages/dashboard/stats',
+    locals : {
+      layout : false
+    }
+  },
+  'GET /stats': { 
+    action: 'view-stats',
+    locals: {
+      layout: false
+    }
+  },
+
   'GET /emails': {
     view: 'emails/email-cart-recovery',
     locals : {
