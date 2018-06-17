@@ -41,7 +41,7 @@ module.exports.security = {
   *                                                                          *
   ***************************************************************************/
 
-  allowRequestHeaders: 'content-type, X-Requested-With, application/json'
+     allowRequestHeaders: 'content-type, Access-Control-Allow-Origin,X-Requested-With, XMLHttpRequest, application/json, application/x-www-form-urlencoded'
 
    },
 
